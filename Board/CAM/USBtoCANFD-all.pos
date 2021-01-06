@@ -1,0 +1,33 @@
+### Module positions - created on Thu Dec 31 13:50:24 2020 ###
+### Printed by Pcbnew version (5.99.0-7706-gdc1c80beb8)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                Package                                            PosX       PosY       Rot  Side
+J3        SWD                4P_3x1.75_P2.0                                -152.6500   -80.3500  180.0000  bottom
+J4        HEADER             PinHeader_1x04_P2.54mm_Vertical               -153.8100   -87.6000   90.0000  bottom
+C1        1uF                1005_C                                         157.2250   -84.2500   90.0000  top
+C2        0.1uF              1005_C                                         155.0250   -84.2500   90.0000  top
+C3        10uF               1005_C                                         154.3250   -84.2500   90.0000  top
+C4        0.1uF              1005_C                                         143.6250   -74.8750  180.0000  top
+C5        0.1uF              1005_C                                         146.0000   -71.5000  -90.0000  top
+C6        0.1uF              1005_C                                         142.0750   -82.9750  -90.0000  top
+C7        0.1uF              1005_C                                         151.6750   -85.3000   90.0000  top
+C8        0.1uF              1005_C                                         152.1500   -77.6000    0.0000  top
+C9        0.1uF              1005_C                                         143.5750   -76.4000  180.0000  top
+C10       0.1uF              1005_C                                         142.9750   -77.6000  180.0000  top
+C11       0.1uF              1005_C                                         142.0750   -81.4000  -90.0000  top
+D1        TVS                1006_C                                         153.4250   -85.3000  -90.0000  top
+D2        TVS                1006_C                                         152.5250   -85.3000  -90.0000  top
+D3        USER               Duo_LED_1.6x0.8_Kingbright_APHB1608LZGKSURKC   143.2750   -66.5750   90.0000  top
+FB1       FILTER             1608_C                                         145.7000   -75.2250    0.0000  top
+J2        CAN                JST_XH_S3B-XH-SM4-TB_1x03_P2.50mm_RightAngle   151.7000   -64.9000  180.0000  top
+R1        120                1608_C                                         152.3750   -76.6500  180.0000  top
+R2        680                1005_C                                         143.2750   -68.7750  180.0000  top
+R3        680                1005_C                                         143.2750   -67.9750    0.0000  top
+R4        10k                1005_C                                         142.0750   -79.8250  -90.0000  top
+R5        10k                1005_C                                         147.5250   -74.9750   90.0000  top
+SW1       TERM               SPDT_Slide_HRO_K3-1293S                        155.6250   -79.8000   90.0000  top
+U1        LP5907UVX-3.3      TI_DSBGA-4_0.875x0.875mm_Layout2x1x2_P0.35mm   156.1250   -84.2500  180.0000  top
+U2        MCP2562FD          DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm           143.8000   -72.4000   90.0000  top
+U3        STM32L552C(C-E)Tx  LQFP-48_7x7mm_P0.5mm                           147.5750   -81.2000    0.0000  top
+## End

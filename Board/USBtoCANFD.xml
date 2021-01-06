@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/stefan/Projects/Current/USBtoCANFD/USBtoCANFD.kicad_sch</source>
+    <date>Wed Dec 30 16:38:32 2020</date>
+    <tool>Eeschema (5.99.0-7706-gdc1c80beb8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USBtoCANFD.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6a4c6851-5502-472e-8957-bd7541a31494</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7f60b1e9-21b5-426e-b72e-531c1928c75b</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1d09d239-5ad2-4b2f-9de2-cf1e5921685a</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d94a89ca-2770-41fa-a38e-ca9e132e5a18</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b83ef82a-63c2-42e2-95f0-59f0b496f592</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>066a0da5-537d-410a-bbd4-36e6e1e4feb5</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>250a2aec-c6ed-407d-b4c9-14c37b98a1f6</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f3e51c85-bf3a-4e16-9606-5de38a304061</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>40ccc879-f86d-4421-9083-7ed87142a187</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>daa82530-1dd1-44b7-8ec5-99d6d27ffb2f</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7370f85b-28b1-4c64-a242-64fb0c794e1b</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TVS</value>
+      <footprint>Diode_SMD:1006_C</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.5pF 3.3V</field>
+        <field name="MPN">AR0521P1</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="MPN" value="AR0521P1"/>
+      <property name="Description" value="0.5pF 3.3V"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53e31995-671b-482f-bb12-1cc95a1efcbe</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>TVS</value>
+      <footprint>Diode_SMD:1006_C</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.5pF 3.3V</field>
+        <field name="MPN">AR0521P1</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="MPN" value="AR0521P1"/>
+      <property name="Description" value="0.5pF 3.3V"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e96eaf5f-649a-4e69-9f1c-e2c9f65fa1c2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>USER</value>
+      <footprint>LED_SMD:Duo_LED_1.6x0.8_Kingbright_APHB1608LZGKSURKC</footprint>
+      <libsource lib="RobotProtos" part="LED_DUAL_red_green" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>119e43a9-459c-45e8-8aa1-2c0edf814ce6</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>FILTER</value>
+      <footprint>Inductor_SMD:1608_C</footprint>
+      <fields>
+        <field name="USD_per_1">0,26</field>
+        <field name="USD_per_1000">0,09150</field>
+      </fields>
+      <libsource lib="RobotProtos" part="FILTER" description=""/>
+      <property name="USD_per_1000" value="0,09150"/>
+      <property name="USD_per_1" value="0,26"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>c2d58f30-19c7-4978-8efd-016d407c9790</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>Mount_Hole_Ungrounded</value>
+      <footprint>MountingHole:Plain_Hole_2mm</footprint>
+      <libsource lib="RobotProtos" part="Mount_Hole_Ungrounded" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>21f3505d-c1ce-4e92-bd95-eb44eeff8a06</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>Mount_Hole_Ungrounded</value>
+      <footprint>MountingHole:Plain_Hole_2mm</footprint>
+      <libsource lib="RobotProtos" part="Mount_Hole_Ungrounded" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9bfc79c5-a018-4ce3-8532-2c1a631a1f76</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PLUG</value>
+      <footprint>Connector_USB:USB_A_PCB_traces_small</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">Not Populated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Not Populated"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>c24e96ab-88a9-43dc-b1c8-efae4a15b53d</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CAN</value>
+      <footprint>Connector_JST:JST_XH_S3B-XH-SM4-TB_1x03_P2.50mm_RightAngle</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x03_MountingPin" description="Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ae2a409a-b106-4d26-8741-3e550791711e</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>SWD</value>
+      <footprint>SH_Solder_Pads:4P_3x1.75_P2.0</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0a2fbfbb-59d3-4440-8451-3c8ffb743d18</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>HEADER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">Not Populated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Not Populated"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9c65cddb-b26d-405c-bb80-e8fe1301aada</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>BOOT</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="RobotProtos" part="JUMPER" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a5d504e5-e981-4f78-a19e-4feaad6520f3</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>RESET</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="RobotProtos" part="JUMPER" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>d06ee04d-629d-4a2a-a646-1444ae732d5a</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>120</value>
+      <footprint>Resistor_SMD:1608_C</footprint>
+      <fields>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>47e1d0da-408e-47a0-8f89-fe92e4ef9c17</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>680</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b54e1a1a-d5ea-4c93-9536-08678ac92577</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>680</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3f27f507-22a8-4f3a-b36c-dc96310c8542</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>da06249a-4d79-4c1b-ab5f-f99b549ccb63</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e1c4dbc8-5ac9-4d60-800b-1a7a0d768a4f</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TERM</value>
+      <footprint>Button_Switch_SMD:SPDT_Slide_HRO_K3-1293S</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">K3-1293S</field>
+      </fields>
+      <libsource lib="RobotProtos" part="SW_SPDT_MP" description="Switch, single pole double throw"/>
+      <property name="MPN" value="K3-1293S"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>acfeac17-ae71-4f04-bbfb-01c3d108656e</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LP5907UVX-3.3</value>
+      <footprint>Package_BGA:TI_DSBGA-4_0.875x0.875mm_Layout2x1x2_P0.35mm</footprint>
+      <fields>
+        <field name="MPN">LP5907UVX-3.3</field>
+      </fields>
+      <libsource lib="RobotProtos" part="LP5907_BGA" description=""/>
+      <property name="MPN" value="LP5907UVX-3.3"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66f3c3c2-a2e0-418b-936b-9a74c5330b86</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP2562FD</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf</datasheet>
+      <libsource lib="Interface_CAN_LIN" part="MCP2562-E-MF" description="High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DFN-8"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a909a6a1-cd64-478a-afff-91f9f534c9ab</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STM32L552C(C-E)Tx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <libsource lib="STM32" part="STM32L552C(C-E)Tx" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="USBtoCANFD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>fd78d4d2-12b9-4678-b9f5-e07fed9ec750</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x03_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS_Filled">
+      <description>Bidirectional transient-voltage-suppression diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS_Filled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_CAN_LIN" part="MCP2562-E-MF">
+      <description>High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DFN-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf</docs>
+      <footprints>
+        <fp>DFN*1EP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2562-E-MF</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="Vio" type="power_in"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="SHDN" type="input"/>
+        <pin num="9" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="Csmall">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Csmall</field>
+        <field name="Footprint">Capacitor_SMD:1608_C</field>
+        <field name="Voltage">16V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Package">1608</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="FILTER">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+        <field name="Footprint">SH_Filters:1608_B</field>
+        <field name="USD_per_1000">0,09150</field>
+        <field name="USD_per_1">0,26</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="JUMPER">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="LED_DUAL_red_green">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_DUAL_red_green</field>
+        <field name="Footprint">LED_SMD:Duo_LED_1.6x0.8_Kingbright_APHB1608LZGKSURKC</field>
+      </fields>
+      <pins>
+        <pin num="GA" name="1" type="passive"/>
+        <pin num="GK" name="2" type="passive"/>
+        <pin num="RA" name="3" type="passive"/>
+        <pin num="RK" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="LP5907_BGA">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5907_BGA</field>
+        <field name="Footprint">Package_BGA:TI_DSBGA-4_0.875x0.875mm_Layout2x1x2_P0.35mm</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="IN" type="power_in"/>
+        <pin num="A2" name="OUT" type="power_out"/>
+        <pin num="B1" name="EN" type="input"/>
+        <pin num="B2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="Mount_Hole_Ungrounded">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Mount_Hole_Ungrounded</field>
+        <field name="Footprint">SH_Mechanical:MOUNT_HOLE_4-40_Plain</field>
+      </fields>
+    </libpart>
+    <libpart lib="RobotProtos" part="RSMALL">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RSMALL</field>
+        <field name="Footprint">Resistor_SMD:1608_C</field>
+        <field name="USD_per_1000">0,024</field>
+        <field name="USD_per_1">0,08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="SW_SPDT_MP">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT_MP</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="MP" name="MP" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="STM32" part="STM32L552C(C-E)Tx">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L552C(C-E)Tx</field>
+        <field name="Footprint">LQFP48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14-OSC32_IN(PC14)" type="BiDi"/>
+        <pin num="4" name="PC15-OSC32_OUT(PC15)" type="BiDi"/>
+        <pin num="5" name="PH0-OSC_IN(PH0)" type="BiDi"/>
+        <pin num="6" name="PH1-OSC_OUT(PH1)" type="BiDi"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA/VREF-" type="power_in"/>
+        <pin num="9" name="VDDA/VREF+" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13(JTMS/SWDIO)" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14(JTCK/SWCLK)" type="BiDi"/>
+        <pin num="38" name="PA15(JTDI)" type="BiDi"/>
+        <pin num="39" name="PB3(JTDO/TRACESWO)" type="BiDi"/>
+        <pin num="40" name="PB4(NJTRST)" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="PH3-BOOT0" type="BiDi"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.lib</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/usr/share/kicad/symbols//Connector_Generic_MountingPin.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.lib</uri>
+    </library>
+    <library logical="Interface_CAN_LIN">
+      <uri>/usr/share/kicad/symbols//Interface_CAN_LIN.lib</uri>
+    </library>
+    <library logical="RobotProtos">
+      <uri>/usr/share/kicad/symbols//RobotProtos.kicad_sym</uri>
+    </library>
+    <library logical="STM32">
+      <uri>/usr/share/kicad/symbols//stm32.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="A2" pinfunction="OUT"/>
+      <node ref="U2" pin="5" pinfunction="Vio"/>
+      <node ref="U3" pin="1" pinfunction="VBAT"/>
+      <node ref="U3" pin="24" pinfunction="VDD"/>
+      <node ref="U3" pin="36" pinfunction="VDD"/>
+      <node ref="U3" pin="48" pinfunction="VDD"/>
+      <node ref="U3" pin="9" pinfunction="VDDA/VREF+"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1"/>
+      <node ref="U1" pin="A1" pinfunction="IN"/>
+      <node ref="U1" pin="B1" pinfunction="EN"/>
+    </net>
+    <net code="3" name="CAN+">
+      <node ref="J2" pin="2" pinfunction="Pin_2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="7" pinfunction="CANH"/>
+    </net>
+    <net code="4" name="CAN-">
+      <node ref="J2" pin="3" pinfunction="Pin_3"/>
+      <node ref="SW1" pin="3" pinfunction="C"/>
+      <node ref="U2" pin="6" pinfunction="CANL"/>
+    </net>
+    <net code="5" name="CAN_EN">
+      <node ref="U2" pin="8" pinfunction="SHDN"/>
+      <node ref="U3" pin="43" pinfunction="PB7"/>
+    </net>
+    <net code="6" name="CAN_RX">
+      <node ref="U2" pin="4" pinfunction="RXD"/>
+      <node ref="U3" pin="45" pinfunction="PB8"/>
+    </net>
+    <net code="7" name="CAN_TX">
+      <node ref="U2" pin="1" pinfunction="TXD"/>
+      <node ref="U3" pin="46" pinfunction="PB9"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D1" pin="1" pinfunction="A1"/>
+      <node ref="D2" pin="1" pinfunction="A1"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1"/>
+      <node ref="J2" pin="MP" pinfunction="MountPin"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4"/>
+      <node ref="JP1" pin="1" pinfunction="1"/>
+      <node ref="JP2" pin="1" pinfunction="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="SW1" pin="MP" pinfunction="MP"/>
+      <node ref="U1" pin="B2" pinfunction="GND"/>
+      <node ref="U2" pin="2" pinfunction="VSS"/>
+      <node ref="U2" pin="9" pinfunction="PAD"/>
+      <node ref="U3" pin="23" pinfunction="VSS"/>
+      <node ref="U3" pin="35" pinfunction="VSS"/>
+      <node ref="U3" pin="47" pinfunction="VSS"/>
+      <node ref="U3" pin="8" pinfunction="VSSA/VREF-"/>
+    </net>
+    <net code="9" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="U2" pin="3" pinfunction="VDD"/>
+    </net>
+    <net code="10" name="Net-(D3-PadGK)">
+      <node ref="D3" pin="GK" pinfunction="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D3-PadRA)">
+      <node ref="D3" pin="RA" pinfunction="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="44" pinfunction="PH3-BOOT0"/>
+    </net>
+    <net code="13" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="SW1" pin="2" pinfunction="B"/>
+    </net>
+    <net code="14" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3" pinfunction="PC14-OSC32_IN(PC14)"/>
+    </net>
+    <net code="15" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="PC15-OSC32_OUT(PC15)"/>
+    </net>
+    <net code="16" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="PH0-OSC_IN(PH0)"/>
+    </net>
+    <net code="17" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="PH1-OSC_OUT(PH1)"/>
+    </net>
+    <net code="18" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="PA0"/>
+    </net>
+    <net code="19" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="PA1"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="PA2"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="PA3"/>
+    </net>
+    <net code="22" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="PA4"/>
+    </net>
+    <net code="23" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15" pinfunction="PA5"/>
+    </net>
+    <net code="24" name="Net-(U3-Pad16)">
+      <node ref="U3" pin="16" pinfunction="PA6"/>
+    </net>
+    <net code="25" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17" pinfunction="PA7"/>
+    </net>
+    <net code="26" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18" pinfunction="PB0"/>
+    </net>
+    <net code="27" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19" pinfunction="PB1"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20" pinfunction="PB2"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21" pinfunction="PB10"/>
+    </net>
+    <net code="30" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22" pinfunction="PB11"/>
+    </net>
+    <net code="31" name="Net-(U3-Pad25)">
+      <node ref="U3" pin="25" pinfunction="PB12"/>
+    </net>
+    <net code="32" name="Net-(U3-Pad26)">
+      <node ref="U3" pin="26" pinfunction="PB13"/>
+    </net>
+    <net code="33" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27" pinfunction="PB14"/>
+    </net>
+    <net code="34" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28" pinfunction="PB15"/>
+    </net>
+    <net code="35" name="Net-(U3-Pad29)">
+      <node ref="U3" pin="29" pinfunction="PA8"/>
+    </net>
+    <net code="36" name="Net-(U3-Pad30)">
+      <node ref="U3" pin="30" pinfunction="PA9"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad31)">
+      <node ref="U3" pin="31" pinfunction="PA10"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad38)">
+      <node ref="U3" pin="38" pinfunction="PA15(JTDI)"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad39)">
+      <node ref="U3" pin="39" pinfunction="PB3(JTDO/TRACESWO)"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad40)">
+      <node ref="U3" pin="40" pinfunction="PB4(NJTRST)"/>
+    </net>
+    <net code="41" name="Net-(U3-Pad41)">
+      <node ref="U3" pin="41" pinfunction="PB5"/>
+    </net>
+    <net code="42" name="Net-(U3-Pad42)">
+      <node ref="U3" pin="42" pinfunction="PB6"/>
+    </net>
+    <net code="43" name="STATUS_LED">
+      <node ref="D3" pin="GA" pinfunction="1"/>
+      <node ref="D3" pin="RK" pinfunction="4"/>
+      <node ref="U3" pin="2" pinfunction="PC13"/>
+    </net>
+    <net code="44" name="SWD_CLK">
+      <node ref="J3" pin="1" pinfunction="Pin_1"/>
+      <node ref="U3" pin="37" pinfunction="PA14(JTCK/SWCLK)"/>
+    </net>
+    <net code="45" name="SWD_IO">
+      <node ref="J3" pin="2" pinfunction="Pin_2"/>
+      <node ref="U3" pin="34" pinfunction="PA13(JTMS/SWDIO)"/>
+    </net>
+    <net code="46" name="USB_D+">
+      <node ref="D2" pin="2" pinfunction="A2"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3"/>
+      <node ref="U3" pin="33" pinfunction="PA12"/>
+    </net>
+    <net code="47" name="USB_D-">
+      <node ref="D1" pin="2" pinfunction="A2"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2"/>
+      <node ref="U3" pin="32" pinfunction="PA11"/>
+    </net>
+    <net code="48" name="nRST">
+      <node ref="C11" pin="1"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3"/>
+      <node ref="JP2" pin="2" pinfunction="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U3" pin="7" pinfunction="NRST"/>
+    </net>
+    <net code="49" name="no_connect_49">
+      <node ref="SW1" pin="1" pinfunction="A"/>
+    </net>
+  </nets>
+</export>
